@@ -207,12 +207,12 @@ function main() {
 
     // УНИВЕРСАЛЬНЫЕ РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ ДЛЯ ЛЮБОГО КУРСА
     const isPracticalSubModule =
-        /^https:\/\/up\.htmlacademy\.ru\/[^\/]+\/\d+?\/module\/\d+?\/item\/\d+?$/.test(
+         /^https:\/\/up\.htmlacademy\.ru\/javascript\/\d+?\/module\/\d+?\/item\/\d+?$/.test(
             window.location.href
         );
 
     const isTheorySubModule =
-        /^https:\/\/up\.htmlacademy\.ru\/[^\/]+\/\d+?\/module\/\d+?$/.test(
+         /^https:\/\/up\.htmlacademy\.ru\/javascript\/\d+?\/module\/\d+?\/item\/\d+?$/.test(
             window.location.href
         );
 
